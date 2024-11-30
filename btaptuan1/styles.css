@@ -1,0 +1,65 @@
+/* Định dạng cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Thanh menu ngang căn lề trái */
+.menu {
+    background-color: #333;
+    overflow: hidden; /* Đảm bảo rằng các mục không bị tràn ra ngoài */
+}
+
+.menu a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block; /* Đảm bảo các mục nằm ngang */
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: #575757;
+}
+
+/* Phần nội dung của trang */
+.content {
+    padding: 20px;
+}
+
+/* Tiêu đề */
+h1 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.action-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50; /* Màu xanh cho sửa */
+    margin-right: 5px;
+}
+.delete-btn {
+    background-color: red; /* Màu đỏ cho xóa */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 24px;
+    border-top: 3px solid #000; /* Dòng kẻ đậm */
+}

@@ -1,0 +1,44 @@
+/* Định dạng tổng thể container bao quanh mỗi loài hoa */
+.flower-container {
+    display: flex; /* Sử dụng Flexbox */
+    flex-direction: column; /* Căn theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa văn bản */
+    margin: 20px auto; /* Căn giữa toàn bộ container */
+    padding: 20px; /* Thêm khoảng cách bên trong */
+    border: 1px solid #ddd; /* Thêm viền */
+    border-radius: 10px; /* Bo tròn container */
+    background-color: #f9f9f9; /* Màu nền nhạt */
+    max-width: 700px; /* Giới hạn chiều rộng của container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
+
+/* Tiêu đề của hoa */
+.flower-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px; /* Khoảng cách dưới */
+    color: #333;
+}
+
+/* Mô tả hoa */
+.flower-container p {
+    font-size: 16px;
+    margin-bottom: 20px; /* Khoảng cách dưới */
+    color: #666;
+    line-height: 1.6; /* Khoảng cách dòng */
+    max-width: 600px; /* Giới hạn chiều rộng của văn bản */
+    text-align: center; /* Căn giữa văn bản */
+}
+
+/* Định dạng ảnh */
+.flower-container img {
+    display: block; /* Mỗi ảnh chiếm một dòng riêng */
+    margin: 10px auto; /* Căn giữa ảnh */
+    max-width: 580px; /* Giới hạn chiều rộng */
+    max-height: 435px; /* Giới hạn chiều cao */
+    width: auto; /* Duy trì tỷ lệ ảnh */
+    height: auto; /* Duy trì tỷ lệ ảnh */
+    border-radius: 8px; /* Bo tròn ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho ảnh */
+}
